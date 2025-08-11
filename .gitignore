@@ -1,0 +1,61 @@
+# --- Your existing entries (kept) ---
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/.idea.BMS.iml
+/modules.xml
+/projectSettingsUpdater.xml
+/contentModel.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# --- General .NET/IDE/build ---
+# Build outputs
+bin/
+obj/
+TestResults/
+[Bb]uild[Ll]og*.*
+
+# Logs and coverage
+*.log
+*.tlog
+*.trx
+*.coverage
+*.coveragexml
+
+# Visual Studio
+/.vs/
+*.user
+*.suo
+
+# Rider (JetBrains)
+.idea/
+*.iml
+_ReSharper*/
+*.DotSettings.user
+
+# VS Code (ignore if you don't want to share workspace settings)
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+
+# Publish/output
+publish/
+out/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Local/dev-only configs (keep secrets out of git)
+appsettings.*.Local.json
+
+# Keep dotnet local tools manifest tracked
+!.config/
+!.config/dotnet-tools.json
